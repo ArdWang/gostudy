@@ -35,8 +35,6 @@ func chanDemo(){
 		channels[i] <- 'A'+i
 	}
 
-	//n := <-c
-	//fmt.Println(n)
 	time.Sleep(time.Millisecond)
 }
 
