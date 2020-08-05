@@ -4,6 +4,7 @@ import (
 	"github.com/gostudy/errhanding/filelisteningserver/filelisting"
 	"log"
 	"net/http"
+	_ "net/http/pprof"
 	"os"
 )
 
